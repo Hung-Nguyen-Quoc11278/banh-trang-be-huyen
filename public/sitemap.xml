@@ -14,7 +14,13 @@
     <loc>http://localhost:1313/blogs/sot-cham-than-thanh/</loc>
     <lastmod>2022-12-09T19:53:33+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/b%C3%A1nh-tr%C3%A1ng-tr%E1%BB%99n/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/banh-trang-tron-bit/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/banh-trang-tron-bit2/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
@@ -26,17 +32,17 @@
     <loc>http://localhost:1313/tags/sample/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/s%E1%BB%91t-th%E1%BA%A7n-th%C3%A1nh/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tai-heo-gi%C3%B2n/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tai-heo/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
