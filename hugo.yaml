@@ -1,0 +1,174 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Bánh Tráng Bé Huyền"
+theme: hugo-profile
+
+defaultContentLanguage: "vn"
+defaultContentLanguageInSubdir: false
+
+languages:
+  vn:
+    languageName: "Việt"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: món
+          name: Món
+          title: Menu Món
+          url: /blogs
+          weight: 1
+        - identifier: Ảnh
+          name: Ảnh
+          title: Thư viện ảnh
+          url: /gallery
+          weight: 2
+  
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: gallery
+      name: Gallery
+      title: Gallery
+      url: /gallery
+      weight: 2
+    
+
+params:
+  title: "Bánh Tráng Bé Huyền"
+  description: Text about my cool site
+  favicon: "/banhtrangbehuyen.webp"
+
+  useBootstrapCDN: true
+
+
+  mathjax: false
+
+  animate: true
+
+  theme:
+
+  font:
+    fontSize: 1rem 
+    fontWeight: 400 
+    lineHeight: 1.5 
+    textAlign: left
+
+  color:
+    textLinkColor: "#ff69b4"        
+    backgroundColor: "#fff5f7"      
+    secondaryBackgroundColor: "#ffb6c133" 
+    primaryColor: "#ff69b4"
+  
+
+  navbar:
+    align: ms-auto 
+    brandName: "Bánh Tráng Bé Huyền" 
+    disableSearch: true
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Chào mọi người, mình là"
+    title: "Bé Huyền"
+    subtitle: "Bánh tráng chuẩn vị"
+    content: "Bán vì đam mê, ăn vô là phê, không có chỗ chê!"
+    image: /images/banhtrangbehuyen.webp
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Đặt bánh ngay"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      customIcons:
+        - icon: /banhtrangbehuyen.webp
+          url: "https://example.com"
+
+  about:
+    enable: true
+    title: "Về Huyền"
+    image: "/images/banhtrangbehuyen.webp"
+    content: |-
+      Là một người con của Tây Ninh, hiện đang sống tại Tây Ninh, từ thuở bé Huyền đã rất thích ăn vặt, đặc biệt là đặc sản ở tại quê nhà.
+      Chưa dừng lại ở sở thích cá nhân là "ăn" Huyền quyết định kinh doanh những món thật tâm đắc, để mang hương vị này đến khắp mọi người
+      có cùng đam mê, sở thích. Với Huyền công việc này không chỉ tạo nên thu nhập, niềm vui, mà còn là góp phần tạo nên 1 bản sắc năng động
+      cho chính vùng quê mà mình được sinh ra và lớn lên.
+
+  contact:
+    enable: true
+    content: Liên hệ qua số điện thoại
+    btnName: Gọi ngay
+    btnLink: 1900 1558
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Món Nè Lựa Nha
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      
+      facebook: https://facebook.com
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Đọc"
+    toc: "Bảng nội dung"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  minify:
+    disableXML: false
+    minifyOutput: true
